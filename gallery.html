@@ -18,11 +18,15 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/theme-1.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <!--[if gte IE 9]>
         	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
 		<![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
         <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<style>
+			
+		</style>
     </head>
     <body>
 		<div class="loader">
@@ -80,14 +84,15 @@
 					
 				</div>
 				
+			
 				<div class="projects-wrapper clearfix">
 					<div class="container">
 						<div class="row">
 							<ul class="filters">
 								<li data-filter="*" class="active"><span>All</span></li>
-								<li data-filter=".branding"><span>Patios</span></li>
-								<li data-filter=".development"><span>Walkways</span></li>
-								<li data-filter=".print"><span>Decks</span></li>
+								<li data-filter=".brem"><span>Bathroom Remodels</span></li>
+								<li data-filter=".krem"><span>Kitchen Remodels</span></li>
+								<li data-filter=".print"><span>Patios</span></li>
 							</ul>
 						</div>
 					</div>
@@ -95,79 +100,79 @@
 					<div class="container">
 						<div class="projects-container column-projects">
 					
-							<div class="col-md-4 col-sm-6 project development image-holder">
+							<div class="col-md-4 col-sm-6 project brem image-holder">
 								<div class="background-image-holder">
-									<img class="background-image" alt="Background Image" src="img/project1.jpg">
+									<img class="background-image" alt="Background Image" src="img/BR14.JPG">
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Lorem</strong> Ipsum</h3>
-										<a href="#" class="btn btn-primary btn-white">See Project</a>
+										<h3 class="text-white"><strong>Modern</strong> Minimalist</h3>
+										<a href="#" class="btn btn-primary btn-white"class="btn btn-primary" data-toggle="modal" data-target="#ModernMinimalistModal">See Project</a>
 									</div>
 								</div>
 							</div>
 							
-							<div class="col-md-4 col-sm-6 project branding image-holder">
+							<!-- <div class="col-md-4 col-sm-6 project brem image-holder">
 								<div class="background-image-holder">
 									<img class="background-image" alt="Background Image" src="img/project2.jpg">
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Lorem</strong> Ipsum</h3>
+										<h3 class="text-white"><strong>BR</strong> 2</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div>
 							
-							<div class="col-md-4 col-sm-6 project print image-holder">
+							<div class="col-md-4 col-sm-6 project brem image-holder">
 								<div class="background-image-holder">
 									<img class="background-image" alt="Background Image" src="img/project3.jpg">
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Lorem</strong> Ipsum</h3>
+										<h3 class="text-white"><strong>BR</strong> 3</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div>
 							
-							<div class="col-md-4 col-sm-6 project print image-holder">
+							<div class="col-md-4 col-sm-6 project krem image-holder">
 								<div class="background-image-holder">
 									<img class="background-image" alt="Background Image" src="img/project4.jpg">
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Lorem</strong> Ipsum</h3>
+										<h3 class="text-white"><strong>KR</strong> 1</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div>
 							
-							<div class="col-md-4 col-sm-6 project branding image-holder">
+							<div class="col-md-4 col-sm-6 project krem image-holder">
 								<div class="background-image-holder">
 									<img class="background-image" alt="Background Image" src="img/project5.jpg">
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Lorem</strong> Ipsum</h3>
+										<h3 class="text-white"><strong>KR</strong> 2</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div>
 							
-							<div class="col-md-4 col-sm-6 project development image-holder">
+							<div class="col-md-4 col-sm-6 project krem image-holder">
 								<div class="background-image-holder">
 									<img class="background-image" alt="Background Image" src="img/project6.jpg">
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Lorem</strong> Ipsum</h3>
+										<h3 class="text-white"><strong>KR</strong> 3</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div>
 							
-						
+						 -->
 					
 						</div>
 					</div>
@@ -184,7 +189,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-4">
-							<img alt="logo" class="logo" src="img/logo-dark.png">
+							<img alt="logo" class="logo" src="img/Logo-TRNSP.png">
 							<p class="text-white">
 								"At IXP Remodeling, we're passionate about turning your remodeling dreams into reality. 
 								Start with a free consultation to share your vision, and together, we'll transform your interior space into a stunning oasis that reflects your style and personality. 
@@ -242,6 +247,39 @@
         <script src="js/lightbox.min.js"></script>
         <script src="js/jquery.countdown.min.js"></script>
         <script src="js/scripts.js"></script>
+		<div class="modal fade" id="ModernMinimalistModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content"> <!-- Added modal-content container -->
+					<div id="modernMinimalistSlideshow" class="lightbox">
+						<!-- Close button inside the slideshow container -->
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true"><i class="fas fa-times"></i></span>
+						</button>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			// JavaScript to populate the slideshow with images
+			$(document).ready(function () {
+				var images = [
+					'img/BR11.JPG', 
+					'img/BR12.JPG',
+					'img/BR13.JPG',
+					'img/BR14.JPG',
+					'img/BR15.JPG', 
+				];
+		
+				var slideshowContainer = $('#modernMinimalistSlideshow');
+		
+				images.forEach(function (imageUrl) {
+					var imageElement = $('<img>').attr('src', imageUrl);
+					slideshowContainer.append(imageElement);
+				});
+			});
+		</script>
+		</body>
+		</html>
     </body>
 </html>
 				
